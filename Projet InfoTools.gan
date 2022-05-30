@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-09-08" view-index="0" gantt-divider-location="714" resource-divider-location="300" version="2.8.5" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="268" order="0"/>
+        <field id="tpd4" name="Date de début" width="221" order="1"/>
+        <field id="tpd5" name="Date de fin" width="221" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="30" name="BDD" meeting="false" start="2021-09-08" duration="1" complete="0" expand="false">
+            <task id="31" name="Client" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="32" name="Rendez-vous" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="33" name="Achat" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="35" name="Produit" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="39" name="Statistique" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="41" name="Prospect" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="43" name="Livraison" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="0" name="Modèle Controleur" color="#8cb6ce" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true">
+            <task id="13" name="Appli C#" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true">
+                <task id="36" name="Prospects" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+                <task id="37" name="Contact/rendez-vous" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="14" name="Authentification du client" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="15" name="Vue du site avec indicateur format pdf" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="1" name="Vue page php" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true">
+            <task id="16" name="Mise en place bouton" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="17" name="Récupération mdp" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="18" name="Pâge produit" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="19" name="Pâge historique achat" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="2" name="Vue page html" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true">
+            <task id="22" name="Pâge présentation" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="24" name="Page produit (accès BDD)" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+            <task id="26" name="Demande client à un commercial" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="27" name="Mobile" meeting="false" start="2021-09-08" duration="1" complete="0" expand="false">
+            <task id="29" name="Application mobile" meeting="false" start="2021-09-08" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
